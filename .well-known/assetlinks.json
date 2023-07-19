@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "it.gruppobper.ams.android.bper.dev.staging",
+    "sha256_cert_fingerprints":
+    ["20:40:A9:C9:4E:51:7A:9C:33:C6:56:5B:F4:D2:2B:A9:1A:99:42:46:73:A3:BA:7A:89:CC:B0:E5:DB:FC:21:FA"]
+  }
+}]
