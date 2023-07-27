@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
            {
-             "appIDs": [ "E6248XK6NT.it.bper.mobilebanking.staging", "E6248XK6NT.com.iriscube.bper-staging" ],
+             "appIDs": [ "E6248XK6NT.it.bper.mobilebanking.staging", "PF6XH7N87Z.com.iriscube.bper-dev", "SGM73ULJLG.com.iriscube.bper-staging"],
               "paths": [
         	  "*"
         	]
@@ -10,6 +10,6 @@
        ]
    },
    "webcredentials": {
-      "apps": [ "E6248XK6NT.it.bper.mobilebanking.staging", "E6248XK6NT.com.iriscube.bper-staging" ]
+      "apps": [ "E6248XK6NT.it.bper.mobilebanking.staging", "PF6XH7N87Z.com.iriscube.bper-dev", "SGM73ULJLG.com.iriscube.bper-staging" ]
    }
 }
