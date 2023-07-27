@@ -1,0 +1,19 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "SGM73ULJLG.com.iriscube.bper-staging","SGM73ULJLG.com.iriscube.bper-dev","PF6XH7N87Z.com.iriscube.bper-dev","PF6XH7N87Z.com.iriscube.bper-staging" ],
+             "components": [
+               {
+                  "/": "/app/dem",
+                  "comment": "Matches any URL with a path that equals /app/dem."
+               }
+             ]
+           }
+       ]
+   },
+   "webcredentials": {
+      "apps": [ "SGM73ULJLG.com.iriscube.bper-staging","SGM73ULJLG.com.iriscube.bper-dev","PF6XH7N87Z.com.iriscube.bper-dev","PF6XH7N87Z.com.iriscube.bper-staging" ]
+   }
+}
+
