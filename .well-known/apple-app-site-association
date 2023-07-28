@@ -3,9 +3,20 @@
        "details": [
             {
               "appIDs": [ "E6248XK6NT.it.bper.mobilebanking.staging", "PF6XH7N87Z.com.iriscube.bper-dev", "SGM73ULJLG.com.iriscube.bper-staging"],
-               "paths": [
-              "/privati/prestiti/prestiti-online?*", "/privati/servizi-digitali/pagapoi?*"
-            ]
+                  "components": [
+                    {
+                      "/": "/privati/prestiti/prestiti-online/*",
+                      "comment": "Matches any URL whose path starts with /prestiti/"
+                    },
+                    {
+                      "/": "/privati/servizi-digitali/pagapoi*",
+                      "comment": "Matches any URL whose path starts with /servizi-digitali/"
+                    },
+                    {
+                      "exclude": true,
+                      "comment": "Exclude all other URLs"
+                    }
+                ]
             }
         ]
     },
